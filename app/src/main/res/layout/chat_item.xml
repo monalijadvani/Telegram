@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/Profile"
+        android:layout_width="40dp"
+        android:src="@drawable/img1"
+        android:layout_height="40dp"/>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/namesItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Monali Jadvani"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hy"/>
+    </LinearLayout>
+
+</LinearLayout>
